@@ -1,0 +1,33 @@
+{
+  "name": "memory-match",
+  "version": "1.0.0",
+  "description": "Memory Match Game",
+  "main": "src/index.html",
+  "license": "MIT",
+  "scripts": {
+    "pretest": "eslint .",
+    "test": "jest --coverage",
+    "start": "serve src/",
+    "deploy": "gh-pages -d src"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/plugin-transform-modules-commonjs": "^7.14.0",
+    "babel-jest": "^27.0.1",
+    "eslint": "^8.3.0",
+    "gh-pages": "^3.2.0",
+    "jest": "^27.0.1",
+    "serve": "^13.0.2"
+  },
+  "engines": {
+    "node": ">=16.x"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  },
+  "bootcamp": {
+    "createdAt": "2023-01-26T19:34:36.672Z",
+    "version": "5.5.0",
+    "commit": "df7115b8ec46293bf1e868fdedcc42e9b3861226"
+  }
+}
